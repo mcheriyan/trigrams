@@ -5,6 +5,7 @@ from nltk import bigrams, trigrams
 from nltk.tokenize import sent_tokenize, word_tokenize
 from collections import Counter, defaultdict
 
+#create a folder for your corpus
 corpusdir = 'miscme/'
 newcorpus = PlaintextCorpusReader(corpusdir, '.*')
 #tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
